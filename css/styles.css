@@ -1,13 +1,16 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
+  box-sizing: border-box;
+  background-color: #ffe53b;
+  color: #222f8d;
+  text-align: center;
   width: 90%;
   margin: 0 auto;
-  text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  color: #001741;
+}
+
+.header img {
+  box-shadow: 2px 2px 7px #aaa;
+  border-radius: 5px;
 }
 
 .nav, .feature-spam, .footer {
@@ -15,18 +18,26 @@ body {
 }
 
 .nav, .footer {
-  background-color: #ffe53b;
-  color: #001741;
   padding: 0.5em 0;
+}
+
+.nav ul {
+  margin-left: 22%;
 }
 
 .nav li {
   display: inline;
-  padding: 0.5em
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 7px #ccc;
 }
 
 .nav a {
   text-decoration: none;
+}
+
+.nav a:hover {
+  font-style: italic;
 }
 
 .content {
@@ -34,13 +45,9 @@ body {
   position: relative;
 }
 
-.feature-spam, .section {
-  height: 30em;
-  margin-bottom: 1em;
-  border: 0.1em solid lightgray;
-}
 
 .feature-spam {
+  height: 30em;
   position: relative;
   background: url(../img/main-spam.png) center no-repeat;
 }
@@ -48,27 +55,66 @@ body {
 .feature-spam img {
   position: absolute;
   top: 10%;
-  left: 1%;
-  transform: rotate(-20deg);
+  left: 1.3%;
+  transform: rotate(-30deg);
 }
 
-.gallery-column, .recipe-column, .nutrition-column {
+.section {
+  height: 35em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.gallery-column, .recipe-column, .fun-column {
   width: 31.3%;
   float: left;
   margin: 1%;
   overflow: scroll;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #aaa;
 }
 
-.section h3 {
-  font-size: 1.2em;
+h3 {
+  font-size: 1.3em;
+  text-shadow: 2px 2px 7px #ccc;
+  padding: 10px;
+  margin: 0px;
+  background-color: #efefef;
 }
 
-.nutrition-column {
+h4 {
+  text-decoration: underline;
+}
+
+.fun-column {
   margin-right: 0%;
 }
 
 .recipe-column h4, ul, ol {
   text-align: left;
   margin-left: 3%;
-  color: #001741;
+  color: #222f8d;
+}
+
+.recipe-column h4 {
+  font-size: 1.1em;
+}
+
+.recipe-column p {
+  color: #ffe53b;
+  letter-spacing: 0.2em;
+}
+
+.recipe-column li {
+  margin: 2% 1%;
+}
+
+.recipe-column ul li:nth-last-child(2):hover {
+  color:red;
+  cursor: pointer;
+}
+.recipe-column ul li:nth-last-child(2)::after {
+  content: " *  <-- Don't leave this out!";
+  color: red;
 }
