@@ -8,9 +8,21 @@ body {
   text-align: center;
 }
 
+.header {
+  display: inline;
+}
+
 .header img {
   box-shadow: 2px 2px 7px #aaa;
   border-radius: 5px;
+  float: left;
+
+}
+
+.header h1{
+  font-size: 5em;
+  margin-top: 5px;
+  float: left;
 }
 
 .nav, .feature-spam, .footer {
@@ -27,6 +39,7 @@ body {
   padding: 0.5em;
   font-size: 1.3em;
   text-shadow: 2px 2px 7px #ccc;
+  float: right;
 }
 
 .nav a {
@@ -40,6 +53,7 @@ body {
 .content {
   overflow: auto;
   position: relative;
+  clear: both;
 }
 
 
@@ -120,7 +134,7 @@ h3 {
 }
 
 .fun-column td, th {
-  border: 2px solid #999;
+  border: 2px solid #222f8d;
   padding: 10px 2px;
 }
 
