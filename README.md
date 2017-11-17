@@ -27,8 +27,8 @@ _HTML and CSS_
 |----------|:-------------:|------:|
 | Border-Box |  left-aligned | $1600 |
 | Float |    centered   |   $12 |
-| Display: Block | right-aligned |    $1 |
-| Display: Inline | right-aligned |    $1 |
+| Display: Block | Block elements are HTML elements that when displayed start on a line of their own, in effect making a block on the page. |    $1 |
+| Display: Inline | Inline elements do not appear on their own line, but share a line with other elements. |    $1 |
 | Center Content | right-aligned |    $1 |
 | Pseudo-Element | right-aligned |    $1 |
 | Pseudo-Class | right-aligned |    $1 |

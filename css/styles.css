@@ -1,0 +1,53 @@
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+}
+
+.feature-spam {
+  position: relative;
+  background: url(../img/main-spam.png) center no-repeat;
+}
+
+.nav, .feature-spam, .footer {
+  margin: 1%;
+}
+
+.gallery-column, .recipe-column, .nutrition-column {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.nutrition-column {
+  margin-right: 0%;
+
+}
+
+li {
+  display: inline;
+  padding: 0.5em
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav, .footer {
+  background-color: lightgray;
+  padding: 0.5em 0;
+}
+
+.feature-spam, .section {
+  height: 30em;
+  margin-bottom: 1em;
+  border: 0.1em solid lightgray;
+}
