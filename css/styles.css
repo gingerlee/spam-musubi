@@ -6,17 +6,14 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-}
-
-.header {
-  display: inline;
+  overflow: auto;
 }
 
 .header img {
   box-shadow: 2px 2px 7px #aaa;
   border-radius: 5px;
   float: left;
-
+  margin-right: 5px;
 }
 
 .header h1{
@@ -36,8 +33,8 @@ body {
 
 .nav li {
   display: inline;
-  padding: 0.5em;
-  font-size: 1.3em;
+  padding: 0.3em;
+  font-size: 1.1em;
   text-shadow: 2px 2px 7px #ccc;
   float: right;
 }
@@ -58,7 +55,7 @@ body {
 
 
 .feature-spam {
-  height: 30em;
+  height: 25em;
   position: relative;
   background: url(../img/main-spam.png) center no-repeat;
 }
