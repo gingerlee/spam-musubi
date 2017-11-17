@@ -15,7 +15,8 @@ body {
 }
 
 .nav, .footer {
-  background-color: lightgray;
+  background-color: #ffe53b;
+  color: #001741;
   padding: 0.5em 0;
 }
 
@@ -24,6 +25,9 @@ body {
   padding: 0.5em
 }
 
+.nav a {
+  text-decoration: none;
+}
 
 .content {
   overflow: auto;
@@ -63,12 +67,8 @@ body {
   margin-right: 0%;
 }
 
-.recipe-column h4, ul, ol, li {
+.recipe-column h4, ul, ol {
   text-align: left;
   margin-left: 3%;
   color: #001741;
-}
-a {
-  text-decoration: none;
-  color: white;
 }
