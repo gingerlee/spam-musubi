@@ -7,11 +7,33 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  color: #001741;
 }
+
+.nav, .feature-spam, .footer {
+  margin: 1%;
+}
+
+.nav, .footer {
+  background-color: lightgray;
+  padding: 0.5em 0;
+}
+
+.nav li {
+  display: inline;
+  padding: 0.5em
+}
+
 
 .content {
   overflow: auto;
   position: relative;
+}
+
+.feature-spam, .section {
+  height: 30em;
+  margin-bottom: 1em;
+  border: 0.1em solid lightgray;
 }
 
 .feature-spam {
@@ -19,8 +41,11 @@ body {
   background: url(../img/main-spam.png) center no-repeat;
 }
 
-.nav, .feature-spam, .footer {
-  margin: 1%;
+.feature-spam img {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  transform: rotate(-20deg);
 }
 
 .gallery-column, .recipe-column, .nutrition-column {
@@ -30,7 +55,7 @@ body {
   overflow: scroll;
 }
 
-.gallery-column h3 {
+.section h3 {
   font-size: 1.2em;
 }
 
@@ -38,23 +63,12 @@ body {
   margin-right: 0%;
 }
 
-li {
-  display: inline;
-  padding: 0.5em
+.recipe-column h4, ul, ol, li {
+  text-align: left;
+  margin-left: 3%;
+  color: #001741;
 }
-
 a {
   text-decoration: none;
   color: white;
-}
-
-.nav, .footer {
-  background-color: lightgray;
-  padding: 0.5em 0;
-}
-
-.feature-spam, .section {
-  height: 30em;
-  margin-bottom: 1em;
-  border: 0.1em solid lightgray;
 }
