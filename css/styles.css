@@ -48,7 +48,6 @@ body {
 }
 
 .content {
-  overflow: auto;
   position: relative;
   clear: both;
 }
@@ -76,7 +75,7 @@ body {
 .gallery-column, .recipe-column, .fun-column {
   width: 31.3%;
   float: left;
-  margin: 1%;
+  margin: 5% 1%;
   overflow: scroll;
   background: #fff;
   border-radius: 5px;
@@ -143,4 +142,8 @@ h3 {
 .fun-column tr:nth-child(2n) {
   background-color: #222f8d;
   color: #ffe53b;
+}
+
+.bottom-banner {
+  margin: 1% auto;
 }
