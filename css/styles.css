@@ -69,7 +69,6 @@ body {
 .section {
   height: 35em;
   margin-bottom: 1em;
-  position: relative;
 }
 
 .gallery-column, .recipe-column, .fun-column {
