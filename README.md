@@ -10,7 +10,7 @@ _This page showcases Spam Musubi, including a recipe, a photo gallery and large 
 
 ## Setup/Installation Requirements
 
-* _Please download copy this link into the browser of your choice.
+* _Please copy this link into the browser of your choice. https://gingerlee.github.io/spam-musubi/_
 
 
 ## Support and contact details
@@ -24,7 +24,7 @@ _HTML and CSS_
 ## CSS Elements Used
 
 | Element   |      Description      |  Use in Application |
-|----------|:-------------:|------:|
+|----------|-------------|------|
 | Border-Box |  Border-box effectively changes the way dimensions are measured for every element so it includes borders and padding. | I've applied border-box to all elements in the body of my html. |
 | Float | The float property specifies how an element should float.  |   I've used the float property in the header as well as in the three columns in the content section of the site. |
 | Display: Block | Block elements are HTML elements that when displayed start on a line of their own, in effect making a block on the page. |  I've used block elements throughout the layout, for example the bottom banner and footer items stack on top of each other as block elements should.  |
