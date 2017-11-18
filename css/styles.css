@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   background-color: #ffe53b;
-  color: #222f8d;
+  color: #232664;
   width: 90%;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -82,13 +82,14 @@ body {
   box-shadow: 2px 2px 7px #aaa;
 }
 
-h3 {
+.section h3 {
   font-size: 1.3em;
   text-shadow: 2px 2px 7px #ccc;
   padding: 10px;
   margin: 0px;
   background-color: #efefef;
   text-align: center;
+
 }
 
 .recipe-column h4 {
@@ -100,7 +101,7 @@ h3 {
 
 .recipe-column h4, ul, ol {
   margin-left: 3%;
-  color: #222f8d;
+  color: #232664;
 }
 
 .recipe-column h4 {
@@ -130,7 +131,7 @@ h3 {
 }
 
 .fun-column td, th {
-  border: 2px solid #222f8d;
+  border: 2px solid #232664;
   padding: 10px 2px;
 }
 
@@ -140,7 +141,7 @@ h3 {
 }
 
 .fun-column tr:nth-child(2n) {
-  background-color: #222f8d;
+  background-color: #232664;
   color: #ffe53b;
 }
 
