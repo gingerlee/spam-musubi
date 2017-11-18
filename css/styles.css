@@ -41,6 +41,8 @@ body {
 
 .nav a {
   text-decoration: none;
+  color: #232664;
+
 }
 
 .nav a:hover {
